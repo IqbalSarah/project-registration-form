@@ -1,0 +1,29 @@
+<!-- form/templates/form/pdf_template.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>User Details PDF</title>
+    <style>
+        /* Add your styles for PDF here */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: #007bff;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>User Details</h1>
+    <p><strong>Name:</strong> {{ user.name }}</p>
+    <p><strong>Age:</strong> {{ user.age }}</p>
+    <p><strong>Gender:</strong> {{ user.gender }}</p>
+    <p><strong>City:</strong> {{ user.city }}</p>
+    <p><strong>Country:</strong> {{ user.country }}</p>
+    <p><strong>Phone Number:</strong> {{ user.phone_number }}</p>
+    <p><strong>Email:</strong> {{ user.email}}</p>
